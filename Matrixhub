@@ -59,7 +59,7 @@ function MatrixUI:CreateWindow(options)
 
     local Main = Instance.new("Frame")
     Main.Name = "Window"
-    Main.Size = options.Size or UDim2.fromOffset(550, 460)
+    Main.Size = options.Size or UDim2.fromOffset(550, 400)
     Main.Position = UDim2.fromScale(0.5, 0.5)
     Main.AnchorPoint = Vector2.new(0.5, 0.5)
     Main.BackgroundColor3 = MatrixUI.Theme.Background
